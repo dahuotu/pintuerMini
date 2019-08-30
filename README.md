@@ -1,2 +1,17 @@
-# minPrograms
-通用微信小程序框架
+框架结构
+——**api**
+——**assets**
+——**components**
+——**filter**
+——**pages**
+——**plugins**
+——**store**
+——**utils**
+——**wxui**
+——**app.js**
+——**app.json**
+——**app.wxss**
+——**project.config.json**
+——**readme.md** 
+——**sitemap.json**
+[用于配置小程序及其页面是否允许被微信索引]
