@@ -19,29 +19,12 @@ var api = {
 };
 
 /**
- * 埋点日志API配置信息
- */
-var logApi = {
-  //测试环境
-  beta: {
-    uba: 'TUAB1.0.4',
-    host: '#'
-  },
-  //正式环境
-  release: {
-    uba: 'UAB1.0.4',
-    host: '#'
-  },
-};
-
-/**
  * 全局配置信息
  */
 var config = {
   //调试状态,false 关闭,true 开启，默认开启
   debug: true,
   host: api.dev,
-  track: logApi.beta,
 };
 
 module.exports = config;

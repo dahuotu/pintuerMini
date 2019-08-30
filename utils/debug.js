@@ -5,7 +5,7 @@
  * 描述：支持node环境下，node，vue，react,angular,小程序
  * 特别说明:本JS插件库只兼容支持HTML5的浏览器，包括移动端、PC端，最低兼容IE9及以上。
  **/
-import $config from "./config";
+import $config from "../api/config";
 
 var debug = {
 

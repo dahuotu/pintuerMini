@@ -7,7 +7,7 @@
  **/
 
 
-import $config from "../utils/config";
+import $config from "/config";
 import $http from "../utils/http";
 import $debug from "../utils/debug";
 import $global from "../store/global";
